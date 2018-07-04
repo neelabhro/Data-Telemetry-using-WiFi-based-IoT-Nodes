@@ -1,0 +1,8 @@
+prefix=/home/neelabhro/Desktop/comm_src/devel
+
+Name: comm
+Description: Description of comm
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/neelabhro/Desktop/comm_src/devel/lib 
+Requires: 
