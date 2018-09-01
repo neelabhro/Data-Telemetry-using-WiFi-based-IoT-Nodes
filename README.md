@@ -10,5 +10,29 @@ Communication Relay by creating a WiFi Mesh Network ( essentially making IoT Nod
 5. Data syncing is done again with that Nano(The one with which the connection is established in the upper case). (dronecomm2.sh)
 6. Again it will ping the first (chk_connection2.py)
 
+# Login details for the WiFis and the RPis
+
+Access Point 1
+
+User: ubnt
+Password: iiitd_ubnt
+Preset IP Address: 192.168.1.158
+
+
+Client:
+User:ubnt
+Password: ubnt123
+IP Address: 192.168.1.160
+
+Raspberry Pi:
+user: iiitd
+IP Address: 192.168.1.200
+Password: test@123
+
+Access Point 2
+Wifi SSID: ubnt_IIITD
+Password: ubiquiti_iiitd
+
+
 
 
