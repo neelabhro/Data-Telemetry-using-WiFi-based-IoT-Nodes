@@ -22,6 +22,7 @@ http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Kinetic%20on%20the%20Raspberry
 2. Get to the directory where check **check_connection.py** is located, and type in **./check_connection.py**.
    For example, **cd Desktop/Summer\ Communications\ Project\ IP/comm_src/src/comm/src/** and then the above command.
    This would get the system going, and all the processes, as mentioned in the above Pipeline Process, will begin, and in order.
+3. To kill all the processes, type in **killall -9 rosmaster**
 
 # Login details for the WiFis and the RPis
 
