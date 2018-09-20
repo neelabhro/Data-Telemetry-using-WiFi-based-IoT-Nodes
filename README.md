@@ -7,7 +7,7 @@ Install either ROS Kinetic / ROS Indigo.
 http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Kinetic%20on%20the%20Raspberry%20Pi
 
 # The Complete Pipeline ( How, and the order in which the files work )
-1. Drone checks connection to both the Nanostations using ping (chk_connection.py)
+1. Drone checks connection to both the Nanostations using ping command(as used using the terminal) (chk_connection.py)
 2. Whichever Nano the drone gets connected to, the transfer will take place with that Nano(dronecomm1.sh)
 3. Data syncing is done with the respective nano (drone1.py)
 4. It will ping the other nanostation ( chk_connection1.py)
