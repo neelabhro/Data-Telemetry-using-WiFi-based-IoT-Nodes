@@ -26,7 +26,6 @@ http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Kinetic%20on%20the%20Raspberry
 
 # Login details for the WiFis and the RPis
 
-Access Point 1
 
 User: ubnt
 Password: iiitd_ubnt
@@ -43,9 +42,14 @@ user: iiitd
 IP Address: 192.168.1.200
 Password: test@123
 
+Access Point 1
+WiFi SSID: ubiquiti_IIITD
+Password: ubiquiti_iiitd123
+
 Access Point 2
 Wifi SSID: ubnt_IIITD
-Password: ubiquiti_iiitd
+Password: ubiquiti_iiitd123
+
 
 
 
