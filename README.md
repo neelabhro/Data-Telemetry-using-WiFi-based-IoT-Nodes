@@ -22,34 +22,37 @@ http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Kinetic%20on%20the%20Raspberry
 2. Get to the directory where check **check_connection.py** is located, and type in **./check_connection.py**.
    For example, **cd Desktop/Summer\ Communications\ Project\ IP/comm_src/src/comm/src/** and then the above command.
    This would get the system going, and all the processes, as mentioned in the above Pipeline Process, will begin, and in order.
-3. To kill all the processes, type in **killall -9 rosmaster**
+3. The files and folders that need to be in the same directory are: 
+      1. check_connection.py
+      2. nano2_comm.sh
+      3. nanostation2.py
+      4. send_folder
+      5. receive_folder
+4. To kill all the processes, type in **killall -9 rosmaster**
 
-# Login details for the WiFis and the RPis
+# Login details for the WiFis and the RPis & Ubiquiti Domain details
+
+1. 1. User:ubnt
+   2. Password: iiitd_ubnt
+   3. Preset IP Address: 192.168.1.158
 
 
-User: ubnt
-Password: iiitd_ubnt
-Preset IP Address: 192.168.1.158
+2. 1. User:ubnt
+   2. Password: ubnt123
+   3. IP Address: 192.168.1.160
 
+3. 1. Raspberry Pi:
+   2  user: iiitd
+   3. IP Address: 192.168.1.200
+   4. Password: test@123
 
-Client:
-User:ubnt
-Password: ubnt123
-IP Address: 192.168.1.160
+4. Access Point 1:
+   1. WiFi SSID: ubiquiti_IIITD
+   2. Password: ubiquiti_iiitd123
 
-Raspberry Pi:
-user: iiitd
-IP Address: 192.168.1.200
-Password: test@123
-
-Access Point 1
-WiFi SSID: ubiquiti_IIITD
-Password: ubiquiti_iiitd123
-
-Access Point 2
-Wifi SSID: ubnt_IIITD
-Password: ubiquiti_iiitd123
-
+5. Access Point 2
+   1. WiFi SSID: ubnt_IIITD
+   2. Password: ubiquiti_iiitd
 
 
 
