@@ -2,9 +2,14 @@
 Communication Relay by creating a WiFi Mesh Network ( essentially making IoT Nodes) using ROS, and using that network for Data Telemetry, with Telemetry radios ( Ubiquiti Bullet, Ubiquiti Nanostation) being used as Access Points and Base stations. These are mounted on Drones (with provision for Autopilot using PixHawk modules) so as to facilitate large scale operations at remote locations, accompanied with an Android App. All of this is achieved **Without the use of an Active Internet Connection.**
 
 # Instructions for installing ROS:
-Install either ROS Kinetic / ROS Indigo.
-
+Install either ROS Kinetic / ROS Indigo, preferrably ROS Kinetic.
 http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Kinetic%20on%20the%20Raspberry%20Pi
+
+
+# Instructions for setting up new Ubiquiti Nanostation Loco M2:
+https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjd4KnkiPXdAhUJOI8KHTN5AooQFjAAegQIBxAC&url=https%3A%2F%2Fdl.ubnt.com%2Fdocs%2FM_Series_Beginner_Guide.pdf&usg=AOvVaw0B8o0KBruSKXfpLviTtxHI
+
+After following this, connect to the Designated WiFi SSID you have created, go to Edit Connections, and then set a Static IP Address, as per your choice.
 
 # The Complete Pipeline ( How, and the order in which the files work )
 1. Drone checks connection to both the Nanostations using ping command(as used using the terminal) (chk_connection.py)
@@ -37,18 +42,22 @@ http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Kinetic%20on%20the%20Raspberry
    3. Preset IP Address: 192.168.1.158
 
 
+
 2. 1. User:ubnt
    2. Password: ubnt123
    3. IP Address: 192.168.1.160
 
-3. 1. Raspberry Pi:
+
+3. 1. Raspberry Pi
    2  user: iiitd
    3. IP Address: 192.168.1.200
    4. Password: test@123
 
+
 4. Access Point 1:
    1. WiFi SSID: ubiquiti_IIITD
    2. Password: ubiquiti_iiitd123
+
 
 5. Access Point 2
    1. WiFi SSID: ubnt_IIITD
