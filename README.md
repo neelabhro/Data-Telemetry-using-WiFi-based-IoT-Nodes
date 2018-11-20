@@ -2,12 +2,11 @@
 Communication Relay by creating a WiFi Mesh Network ( essentially making IoT Nodes) using ROS, and using that network for Data Telemetry, with Telemetry radios ( Ubiquiti Bullet, Ubiquiti Nanostation) being used as Access Points and Base stations. These are mounted on Drones (with provision for Autopilot using PixHawk modules) so as to facilitate large scale operations at remote locations, accompanied with an Android App. All of this is achieved **Without the use of an Active Internet Connection.**
 
 # Instructions for installing ROS:
-Install either ROS Kinetic / ROS Indigo, preferrably ROS Kinetic.
-http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Kinetic%20on%20the%20Raspberry%20Pi
+Install either ROS Kinetic / ROS Indigo, preferrably ROS Kinetic by following the instructions provided here: https://bit.ly/2Kp5JMR
 
 
 # Instructions for setting up new Ubiquiti Nanostation Loco M2:
-https://bit.ly/2BjKcC1
+https://bit.ly/2BjKcC1 . 
 https://bit.ly/Nanostation
 
 After following this, connect to the Designated WiFi SSID you have created, go to Edit Connections, and then set a Static IP Address, as per your choice.
