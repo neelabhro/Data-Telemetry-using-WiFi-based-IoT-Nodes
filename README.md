@@ -7,7 +7,8 @@ http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Kinetic%20on%20the%20Raspberry
 
 
 # Instructions for setting up new Ubiquiti Nanostation Loco M2:
-https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjd4KnkiPXdAhUJOI8KHTN5AooQFjAAegQIBxAC&url=https%3A%2F%2Fdl.ubnt.com%2Fdocs%2FM_Series_Beginner_Guide.pdf&usg=AOvVaw0B8o0KBruSKXfpLviTtxHI
+https://bit.ly/2BjKcC1
+https://bit.ly/Nanostation
 
 After following this, connect to the Designated WiFi SSID you have created, go to Edit Connections, and then set a Static IP Address, as per your choice.
 
