@@ -23,7 +23,7 @@ After following this, connect to the Designated WiFi SSID you have created, go t
 
 # Steps to get the System Running:
 1. Open terminal ( Alt+ Ctrl + T), and type in **rosversion -d**, to check if ROS has been correctly or not.
-   If the version name is shown, it means that it has been correctly installed an dis good to go.
+   If the version name is shown, it means that it has been correctly installed and is good to go.
 2. Get to the directory where check **check_connection.py** is located, and type in **./check_connection.py**.
    For example, **cd Desktop/Summer\ Communications\ Project\ IP/comm_src/src/comm/src/** and then the above command.
    This would get the system going, and all the processes, as mentioned in the above Pipeline Process, will begin, and in order.
