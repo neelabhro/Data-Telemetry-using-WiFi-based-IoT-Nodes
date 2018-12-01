@@ -33,6 +33,10 @@ After following this, connect to the Designated WiFi SSID you have created, go t
       3. nanostation2.py
       4. send_folder
       5. receive_folder
+4. Open check_connection.py and change the IP Address to the one you want to connect to, for example '192.168.1.202'.  
+5. Open nano2_comm.sh
+   1. Change the IP Adress to your own system's IP address in this line: export ROS_IP=192.168.1.200
+   2. Change the IP Adress to the Master's (which is sending the files) IP address in this line: export ROS_MASTER_URI=http://192.168.1.202:11311
 4. To kill all the processes, type in **killall -9 rosmaster**
 
 # Login details for the WiFis and the RPis & Ubiquiti Domain details
