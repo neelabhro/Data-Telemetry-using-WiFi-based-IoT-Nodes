@@ -66,6 +66,8 @@ After following this, connect to the Designated WiFi SSID you have created, go t
 5. Access Point 2
    1. WiFi SSID: ubnt_IIITD
    2. Password: ubiquiti_iiitd123
+   
+   hi
 
 
 
