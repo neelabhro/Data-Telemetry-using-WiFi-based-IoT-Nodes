@@ -1,0 +1,23 @@
+Script started on Sun 02 Dec 2018 11:49:22 AM EST
+]0;dcs@dcs-desktop: ~/Desktop/Serverdcs@dcs-desktop:~/Desktop/Server$ ps -Aython runserver.py [4@copy[C[C[C[C[2@(copy)[C[C[C[C[6P[C[C[C[C[2Pcd Desktop/Server/python runserver.py [6@(copy)[C[C[C[C[6P[C[C[C[C
+ * Serving Flask app "data_server" (lazy loading)
+ * Environment: production
+[31m   WARNING: Do not use the development server in a production environment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:5018/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 149-488-301
+{"name":"neelabhro16171@iiitd.ac.in","numPeople":"6","phoneNumber":"+917982870957","special":"mine","food":"true","cloth":"true","medicine":"false","latitude":"NULL","longitude":"NULL"}
+Name:neelabhro16171@iiitd.ac.in Phone Number: +917982870957 No of people: 6 Food: true Cloth: true Medicine: false Latitude: NULL Longitude: NULL Special: mine
+192.168.1.128 - - [02/Dec/2018 11:50:11] "POST / HTTP/1.1" 200 -
+^Z
+[1]+  Stopped                 python runserver.py
+]0;dcs@dcs-desktop: ~/Desktop/Serverdcs@dcs-desktop:~/Desktop/Server$ python runserver.py s -A[Kython runserver.py [4@copy[C[C[C[C[4P[C[C[C[Cs -A[Kython runserver.py [Kexit
+exit
+There are stopped jobs.
+]0;dcs@dcs-desktop: ~/Desktop/Serverdcs@dcs-desktop:~/Desktop/Server$ exit
+exit
+
+Script done on Sun 02 Dec 2018 11:50:23 AM EST
