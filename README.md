@@ -1,6 +1,10 @@
 # Communication-Relay-using-Wifi-Mesh
 Communication Relay by creating a WiFi Mesh Network ( essentially making IoT Nodes) using ROS, and using that network for Data Telemetry, with Telemetry radios ( Ubiquiti Bullet, Ubiquiti Nanostation) being used as Access Points and Base stations. These are mounted on Drones (with provision for Autopilot using PixHawk modules) so as to facilitate large scale operations at remote locations, accompanied with an Android App. All of this is achieved **Without the use of an Active Internet Connection.**
 
+
+### User Interface:
+![](a.png)
+
 # Instructions for installing ROS:
 Install either ROS Kinetic / ROS Indigo, preferrably ROS Kinetic by following the instructions provided here: https://bit.ly/2Kp5JMR
 
